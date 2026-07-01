@@ -35,6 +35,30 @@ sur GitHub Pages.
 - [ ] Renommage éventuel du dépôt (l'utilisateur a mentionné vouloir changer le nom
       `haras-site` plus tard → l'URL GitHub Pages changera en conséquence)
 
+## Optimisations recommandées
+
+Utile et peu coûteux en effort :
+
+- [ ] Compresser les photos avant de les ajouter dans `images/` (une photo de cheval
+      en pleine résolution peut faire 5-10 Mo et ralentir le chargement) — outil
+      simple : https://squoosh.app
+- [ ] Créer une fiche Google Business Profile pour le haras (gratuit) — pour
+      apparaître sur Google Maps / recherche locale, souvent plus rentable que le
+      seul référencement du site pour une activité locale
+- [ ] Page 404 personnalisée (`404.html` à la racine, servie automatiquement par
+      GitHub Pages) plutôt que la page d'erreur par défaut
+
+Nice-to-have, à faire plus tard (après le lancement) :
+
+- [ ] `sitemap.xml` + `robots.txt` pour aider Google à indexer le site
+- [ ] Données structurées `schema.org` (type `LocalBusiness`) pour un meilleur
+      affichage dans les résultats Google (adresse, téléphone visibles directement)
+- [ ] Outil d'analytics léger et respectueux de la vie privée (Plausible ou
+      GoatCounter, gratuits en usage léger) pour suivre les visites
+
+Volontairement écarté pour l'instant : pas de build tool ni de CI — complexité
+inutile pour un site vitrine statique de cette taille, à maintenir seul.
+
 ## Décisions prises
 
 - Site statique simple (pas de framework) : le plus facile à maintenir seul.

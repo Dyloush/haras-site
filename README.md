@@ -18,6 +18,7 @@ haras-site/
 - Le texte se modifie directement dans `index.html` (remplacez les `[textes entre crochets]`).
 - Les couleurs et la mise en page se modifient dans `css/style.css` (variables en haut du fichier).
 - Ajoutez vos photos dans `images/` puis référencez-les avec des balises `<img>` dans la section Galerie.
+- Compressez vos photos avant de les ajouter (une photo de smartphone peut faire 5-10 Mo et ralentir le site) : un outil simple et gratuit est [squoosh.app](https://squoosh.app).
 
 ## Voir le site en local
 
