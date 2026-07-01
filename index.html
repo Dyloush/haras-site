@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Haras du Nom | Élevage, pension et vente de chevaux</title>
+  <meta name="description" content="Haras du Nom - Élevage, pension, dressage et vente de chevaux d'exception.">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#accueil" class="logo">Haras&nbsp;du&nbsp;Nom</a>
+      <nav class="nav">
+        <button class="nav-toggle" id="navToggle" aria-label="Ouvrir le menu">&#9776;</button>
+        <ul class="nav-links" id="navLinks">
+          <li><a href="#accueil">Accueil</a></li>
+          <li><a href="#presentation">Présentation</a></li>
+          <li><a href="#offres">Nos offres</a></li>
+          <li><a href="#galerie">Galerie</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section id="accueil" class="hero">
+    <div class="container hero-inner">
+      <h1>Bienvenue au Haras du Nom</h1>
+      <p>Élevage, pension et vente de chevaux d'exception depuis [année].</p>
+      <a href="#contact" class="btn">Nous contacter</a>
+    </div>
+  </section>
+
+  <section id="presentation" class="section">
+    <div class="container">
+      <h2>Présentation</h2>
+      <p>
+        Le Haras du Nom vous accueille dans un cadre naturel et chaleureux dédié au bien-être
+        du cheval. [Décrivez ici votre histoire, vos valeurs, votre équipe et vos installations.]
+      </p>
+    </div>
+  </section>
+
+  <section id="offres" class="section section-alt">
+    <div class="container">
+      <h2>Nos offres</h2>
+      <div class="cards">
+        <div class="card">
+          <h3>Pension</h3>
+          <p>Description de votre offre de pension (box, pré, soins quotidiens, etc.).</p>
+        </div>
+        <div class="card">
+          <h3>Élevage &amp; poulinière</h3>
+          <p>Description de votre activité d'élevage et de vos étalons/poulinières.</p>
+        </div>
+        <div class="card">
+          <h3>Dressage &amp; débourrage</h3>
+          <p>Description de vos services de dressage, débourrage ou valorisation.</p>
+        </div>
+        <div class="card">
+          <h3>Vente de chevaux</h3>
+          <p>Description des chevaux actuellement disponibles à la vente.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="galerie" class="section">
+    <div class="container">
+      <h2>Galerie</h2>
+      <p>Ajoutez vos photos dans le dossier <code>images/</code> puis référencez-les ici.</p>
+      <div class="gallery">
+        <div class="gallery-placeholder">Photo 1</div>
+        <div class="gallery-placeholder">Photo 2</div>
+        <div class="gallery-placeholder">Photo 3</div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section section-alt">
+    <div class="container">
+      <h2>Contact</h2>
+      <div class="contact-grid">
+        <div class="contact-info">
+          <p><strong>Adresse :</strong> [Adresse du haras]</p>
+          <p><strong>Téléphone :</strong> [Numéro de téléphone]</p>
+          <p><strong>Email :</strong> <a href="mailto:contact@harasdunom.fr">contact@harasdunom.fr</a></p>
+        </div>
+        <form class="contact-form" id="contactForm">
+          <label for="name">Nom</label>
+          <input type="text" id="name" name="name" required>
+
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required>
+
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+
+          <button type="submit" class="btn">Envoyer</button>
+          <p class="form-note" id="formNote"></p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; <span id="year"></span> Haras du Nom. Tous droits réservés.</p>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
