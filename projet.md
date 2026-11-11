@@ -19,15 +19,22 @@ sur GitHub Pages.
       dossier `images/`, `README.md`
 - [x] Page unique avec sections : Accueil (hero), Présentation, Nos offres
       (pension / élevage-poulinière / dressage-débourrage / vente), Galerie, Contact
-- [ ] Contenu réel (textes) — **en attente, l'utilisateur les prépare de son côté**
-- [ ] Photos réelles dans `images/` — **en attente**
-- [ ] Titre/meta description à mettre à jour avec le vrai nom du haras
+- [x] Nom réel : **Écurie de Quinfromel** (titre, meta, logo, textes, footer) — 2026-11-11
+- [x] Photos intégrées (2026-11-11) : shooting pro Namari Studio (Anaïs Marie),
+      originaux dans `Bureau\Photos_Ecuries` (zip). 14 photos en galerie
+      (`images/galerie/photo-XX.jpg` 1600px + `-min.jpg` 600px), `hero.jpg`, `presentation.jpg`.
+      Galerie avec agrandissement au clic (lightbox, flèches clavier).
+- [x] **Condition de la photographe** : mention visible de `@namari_studio_equestre`
+      sur toute utilisation → crédit sous la galerie + dans le footer. Ne pas retirer.
+- [ ] Contenu réel (textes : présentation, offres, adresse, téléphone, email) — **en attente**
+- [x] Droit à l'image : les personnes visibles sur les photos ont donné leur accord
+      (confirmé par l'utilisateur le 2026-11-11)
 - [ ] Formulaire de contact — actuellement juste un message factice en JS
       (`js/script.js`), n'envoie aucun email. À connecter à Formspree ou EmailJS,
       ou à défaut un lien `mailto:`
 - [ ] Favicon
 - [ ] Balises Open Graph (aperçu réseaux sociaux)
-- [ ] Attributs `alt` descriptifs sur les images (SEO/accessibilité)
+- [x] Attributs `alt` descriptifs sur les images (SEO/accessibilité)
 - [ ] Mentions légales + politique de confidentialité (nécessaire si le formulaire
       de contact collecte des données — obligation RGPD en France)
 - [ ] Nom de domaine personnalisé — pas encore de domaine, pourra être ajouté plus
@@ -80,8 +87,8 @@ Le site se met à jour automatiquement sur GitHub Pages quelques minutes après 
 
 ## Prochaine session — reprendre ici
 
-1. Récupérer le contenu (textes + photos) envoyé par l'utilisateur et l'intégrer
-   dans `index.html` / `images/`.
+1. Récupérer les textes (présentation, offres, coordonnées) et les intégrer dans
+   `index.html` (remplacer les `[textes entre crochets]`). Photos : fait.
 2. Mettre en place le formulaire de contact fonctionnel (Formspree ou EmailJS —
    à décider avec l'utilisateur).
 3. Passer en revue le reste de la checklist ci-dessus avant un lancement officiel.

@@ -1,4 +1,4 @@
-# Haras du Nom - Site internet
+# Écurie de Quinfromel - Site internet
 
 Site vitrine statique (HTML/CSS/JS) pour le haras : landing page, présentation, offres et contact.
 
@@ -9,7 +9,10 @@ haras-site/
 ├── index.html        # Page principale
 ├── css/style.css      # Styles
 ├── js/script.js       # Comportements (menu mobile, formulaire, année)
-├── images/            # Vos photos (hero.jpg, galerie, etc.)
+├── images/
+│   ├── hero.jpg           # Bandeau d'accueil
+│   ├── presentation.jpg   # Photo de la section Présentation
+│   └── galerie/           # photo-XX.jpg (grande) + photo-XX-min.jpg (miniature)
 └── README.md
 ```
 
@@ -17,8 +20,17 @@ haras-site/
 
 - Le texte se modifie directement dans `index.html` (remplacez les `[textes entre crochets]`).
 - Les couleurs et la mise en page se modifient dans `css/style.css` (variables en haut du fichier).
-- Ajoutez vos photos dans `images/` puis référencez-les avec des balises `<img>` dans la section Galerie.
+- Pour ajouter une photo à la galerie : placez une version grande (~1600 px) `photo-XX.jpg`
+  et une miniature (~600 px) `photo-XX-min.jpg` dans `images/galerie/`, puis copiez une ligne
+  `<a href=...><img ...></a>` dans la section Galerie de `index.html` (sans oublier le texte `alt`).
+  Le clic pour agrandir fonctionne automatiquement.
 - Compressez vos photos avant de les ajouter (une photo de smartphone peut faire 5-10 Mo et ralentir le site) : un outil simple et gratuit est [squoosh.app](https://squoosh.app).
+
+## Crédit photo (obligatoire)
+
+Les photos sont de Namari Studio (Anaïs Marie). Condition d'utilisation : mention visible du
+compte **@namari_studio_equestre**. Le crédit est affiché sous la galerie et dans le pied de
+page : ne pas le retirer.
 
 ## Voir le site en local
 
