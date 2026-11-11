@@ -224,6 +224,219 @@ a {
 .lightbox-prev { left: 5px; top: 50%; transform: translateY(-50%); }
 .lightbox-next { right: 5px; top: 50%; transform: translateY(-50%); }
 
+/* Accueil : éléments ajoutés */
+.hero-kicker {
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  font-size: 0.9rem !important;
+  margin-bottom: 0 !important;
+  opacity: 0.9;
+}
+
+.hero-actions {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.btn-outline {
+  background: transparent;
+  border: 2px solid #fff;
+  padding: 10px 26px;
+}
+
+.btn-outline:hover {
+  background: rgba(255, 255, 255, 0.15);
+}
+
+.section-intro {
+  text-align: center;
+  max-width: 700px;
+  margin: 0 auto 10px;
+}
+
+.subsection-title {
+  text-align: center;
+  font-size: 1.5rem;
+  margin: 10px 0 6px;
+}
+
+/* Installations */
+.features {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.feature {
+  background: #fff;
+  padding: 20px 24px;
+  border-radius: 8px;
+  border-top: 3px solid var(--color-accent);
+}
+
+.feature h3 {
+  margin: 0 0 6px;
+  font-size: 1.15rem;
+}
+
+.feature p {
+  margin: 0;
+}
+
+/* Tarifs pension */
+.pricing {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 20px;
+  margin-top: 24px;
+}
+
+.price-card {
+  background: #fff;
+  border: 1px solid #e5ddd0;
+  border-radius: 8px;
+  padding: 24px;
+  text-align: center;
+}
+
+.price-card-featured {
+  border: 2px solid var(--color-primary);
+}
+
+.price-card h4 {
+  font-family: Georgia, serif;
+  font-size: 1.2rem;
+  margin: 0;
+  color: var(--color-primary-dark);
+}
+
+.price {
+  font-size: 2rem;
+  font-weight: bold;
+  color: var(--color-primary);
+  margin: 10px 0;
+}
+
+.price span {
+  font-size: 1rem;
+  font-weight: normal;
+  color: var(--color-text);
+}
+
+.price-note {
+  text-align: center;
+  font-size: 0.9rem;
+  color: #6b5d50;
+  margin-bottom: 40px;
+}
+
+.card-price {
+  font-weight: bold;
+  color: var(--color-primary);
+  margin-bottom: 0;
+}
+
+/* Chevaux à vendre */
+.horses {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 24px;
+  margin-top: 30px;
+}
+
+.horse {
+  background: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+}
+
+.horse-photo {
+  aspect-ratio: 4 / 3;
+  background: #ddd2bf;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-primary-dark);
+}
+
+.horse-photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.horse-body {
+  padding: 20px 24px;
+}
+
+.horse-body h3 {
+  margin: 0 0 10px;
+}
+
+.horse-facts {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.horse-price {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: var(--color-primary);
+  margin: 12px 0 0;
+}
+
+/* Carte */
+.map {
+  margin-top: 40px;
+  border-radius: 8px;
+  overflow: hidden;
+  aspect-ratio: 16 / 7;
+}
+
+.map iframe {
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+.contact-note {
+  font-style: italic;
+}
+
+/* Équipe */
+.team {
+  display: grid;
+  grid-template-columns: 280px 1fr;
+  gap: 40px;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.team img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+  object-position: center 20%;
+  border-radius: 8px;
+}
+
+.team h3 {
+  font-size: 1.6rem;
+  margin: 0;
+}
+
+.team-role {
+  color: var(--color-accent);
+  font-weight: 600;
+  margin-top: 4px;
+}
+
 /* Présentation */
 .presentation-grid {
   display: grid;
@@ -262,6 +475,7 @@ a {
 }
 
 .contact-form input,
+.contact-form select,
 .contact-form textarea {
   padding: 10px;
   border: 1px solid #cfc4b3;
@@ -324,8 +538,13 @@ a {
   }
 
   .contact-grid,
-  .presentation-grid {
+  .presentation-grid,
+  .team {
     grid-template-columns: 1fr;
+  }
+
+  .team img {
+    max-width: 280px;
   }
 
   .hero {
@@ -334,5 +553,9 @@ a {
 
   .hero h1 {
     font-size: 2rem;
+  }
+
+  .map {
+    aspect-ratio: 4 / 3;
   }
 }

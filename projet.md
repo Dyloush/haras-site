@@ -26,14 +26,32 @@ sur GitHub Pages.
       Galerie avec agrandissement au clic (lightbox, flèches clavier).
 - [x] **Condition de la photographe** : mention visible de `@namari_studio_equestre`
       sur toute utilisation → crédit sous la galerie + dans le footer. Ne pas retirer.
-- [ ] Contenu réel (textes : présentation, offres, adresse, téléphone, email) — **en attente**
+- [x] Restructuration (2026-11-11) d'après une comparaison avec d'autres sites d'écuries/haras :
+      sections L'écurie (+ Nollan Renault, cavalier et moniteur diplômé, dirigeant),
+      Installations, Prestations (pension avec 3 formules tarifaires, dressage & débourrage,
+      valorisation, élevage, vente), Chevaux à vendre (fiches), Galerie, Contact & accès
+      (carte Google Maps sur Pleumeleuc, choix du type de demande dans le formulaire).
+      Ajout balises Open Graph + données schema.org LocalBusiness (Pleumeleuc 35137).
+- [x] Commune : **Pleumeleuc (35137)**, Ille-et-Vilaine
+- [x] Activités : pension, vente, élevage, valorisation, dressage
+- [ ] Prix : **volontairement en « XX » pour l'instant** (choix de l'utilisateur)
+- [ ] Textes entre `[crochets]` à remplir : histoire de l'écurie, parcours et diplôme exact
+      de Nollan, détail des installations (nb de boxes, hectares, carrière, manège…),
+      contenu des formules de pension, adresse exacte, téléphone, email, temps de trajet
+- [ ] Fiches chevaux à vendre : photos + infos réelles (2 fiches modèles en place)
+- [ ] Carte : remplacer « Pleumeleuc » par l'adresse exacte dans l'iframe (index.html)
+- [x] Photo de Nollan : `images/galerie/photo-10.jpg` (original 3213 : jeune homme blond,
+      doudoune sans manches, seul au pré devant un cheval en couverture) → bloc équipe
+      sous la présentation. Nollan apparaît aussi (même tenue, même jour de shooting) sur
+      `presentation.jpg` et les photos 04, 05, 06 (à cheval sur le pie), 09, 11, 13 → légendes
+      `alt` mises à jour. La cavalière au gilet à zip rouge (01, 02, 03, 14) : nom inconnu.
 - [x] Droit à l'image : les personnes visibles sur les photos ont donné leur accord
       (confirmé par l'utilisateur le 2026-11-11)
 - [ ] Formulaire de contact — actuellement juste un message factice en JS
       (`js/script.js`), n'envoie aucun email. À connecter à Formspree ou EmailJS,
       ou à défaut un lien `mailto:`
 - [ ] Favicon
-- [ ] Balises Open Graph (aperçu réseaux sociaux)
+- [x] Balises Open Graph (aperçu réseaux sociaux)
 - [x] Attributs `alt` descriptifs sur les images (SEO/accessibilité)
 - [ ] Mentions légales + politique de confidentialité (nécessaire si le formulaire
       de contact collecte des données — obligation RGPD en France)
