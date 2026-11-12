@@ -64,8 +64,14 @@ sur GitHub Pages.
 - [x] Attributs `alt` descriptifs sur les images (SEO/accessibilité)
 - [ ] Mentions légales + politique de confidentialité (nécessaire si le formulaire
       de contact collecte des données — obligation RGPD en France)
-- [ ] Nom de domaine personnalisé — pas encore de domaine, pourra être ajouté plus
-      tard via un fichier `CNAME`
+- [ ] Nom de domaine personnalisé — prévu à la fin du projet (décidé le 2026-11-12).
+      Étapes : 1) l'utilisateur achète le domaine (ex. `ecurie-quinfromel.fr`, ~10-15 €/an
+      chez OVH, Gandi, Infomaniak…) ; 2) DNS chez le registrar : 4 enregistrements A vers
+      GitHub Pages (185.199.108.153, .109.153, .110.153, .111.153) + CNAME `www` →
+      `dyloush.github.io` ; 3) Settings > Pages > Custom domain (crée le fichier `CNAME`)
+      puis cocher « Enforce HTTPS » ; 4) remplacer `dyloush.github.io/haras-site` dans
+      `index.html` (og:image, og:url, schema.org) et dans le sitemap. L'ancienne adresse
+      redirige automatiquement vers le nouveau domaine.
 - [ ] Renommage éventuel du dépôt (l'utilisateur a mentionné vouloir changer le nom
       `haras-site` plus tard → l'URL GitHub Pages changera en conséquence)
 

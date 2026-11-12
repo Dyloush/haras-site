@@ -1,3 +1,6 @@
 .DS_Store
 Thumbs.db
 node_modules/
+
+# Espaces de travail temporaires de Claude Code
+.claude/
