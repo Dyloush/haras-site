@@ -34,12 +34,23 @@ sur GitHub Pages.
       Ajout balises Open Graph + données schema.org LocalBusiness (Pleumeleuc 35137).
 - [x] Commune : **Pleumeleuc (35137)**, Ille-et-Vilaine
 - [x] Activités : pension, vente, élevage, valorisation, dressage
-- [ ] Prix : **volontairement en « XX » pour l'instant** (choix de l'utilisateur)
-- [ ] Textes entre `[crochets]` à remplir : histoire de l'écurie, parcours et diplôme exact
-      de Nollan, détail des installations (nb de boxes, hectares, carrière, manège…),
-      contenu des formules de pension, adresse exacte, téléphone, email, temps de trajet
+- [ ] Prix : **volontairement en « XX » pour l'instant** (choix de l'utilisateur). Le dossier
+      de financement donne : cours 30 min 30 €, pension pré 230 €, box/paddock 400 €,
+      travail 500 €, valorisation 600 € + 0,30 €/km de transport, débourrage 650 €.
+- [x] Textes entre `[crochets]` remplis (2026-11-12) à partir du dossier de financement
+      (`Bureau\Ecurie_Quinfromel\Dossier_Nollan Renault.docx`) : histoire et devise
+      « Performance et respect – l'équitation de demain », diplômes et parcours de Nollan
+      (BPJEPS équitation, Bac Pro CGEH, certification jeune cheval), installations
+      (stabulation libre, 10 boxes, 13 ha de prés, carrière sable 40 × 70 m, sellerie,
+      aire de soins, club-house, pas de manège), formules de pension, adresse (lieu-dit
+      Quinfromel), temps de trajet. Ajout d'une prestation « Cours & coaching ».
+- [ ] À vérifier par l'utilisateur : les travaux prévus « en année 1 » dans le dossier
+      (carrière, boxes, stabulation…) sont-ils terminés ? Le site les présente au présent.
+      Carte « Élevage » réécrite en partenariat avec les éleveurs (le dossier ne parle pas
+      d'élevage propre).
+- [ ] Encore à fournir : téléphone, email (non présents dans le dossier)
 - [ ] Fiches chevaux à vendre : photos + infos réelles (2 fiches modèles en place)
-- [ ] Carte : remplacer « Pleumeleuc » par l'adresse exacte dans l'iframe (index.html)
+- [x] Carte : iframe pointée sur « Quinfromel, 35137 Pleumeleuc »
 - [x] Photo de Nollan : `images/galerie/photo-10.jpg` (original 3213 : jeune homme blond,
       doudoune sans manches, seul au pré devant un cheval en couverture) → bloc équipe
       sous la présentation. Nollan apparaît aussi (même tenue, même jour de shooting) sur
@@ -105,8 +116,8 @@ Le site se met à jour automatiquement sur GitHub Pages quelques minutes après 
 
 ## Prochaine session — reprendre ici
 
-1. Récupérer les textes (présentation, offres, coordonnées) et les intégrer dans
-   `index.html` (remplacer les `[textes entre crochets]`). Photos : fait.
+1. Ajouter le téléphone et l'email, faire valider les textes tirés du dossier et décider
+   des prix (textes et photos : fait).
 2. Mettre en place le formulaire de contact fonctionnel (Formspree ou EmailJS —
    à décider avec l'utilisateur).
 3. Passer en revue le reste de la checklist ci-dessus avant un lancement officiel.
