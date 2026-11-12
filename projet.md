@@ -73,9 +73,8 @@ sur GitHub Pages.
 
 Utile et peu coûteux en effort :
 
-- [ ] Compresser les photos avant de les ajouter dans `images/` (une photo de cheval
-      en pleine résolution peut faire 5-10 Mo et ralentir le chargement) — outil
-      simple : https://squoosh.app
+- [x] Photos compressées (1600 px + miniatures 600 px). Pour les prochaines photos, les
+      compresser avant de les ajouter dans `images/` — outil simple : https://squoosh.app
 - [ ] Créer une fiche Google Business Profile pour le haras (gratuit) — pour
       apparaître sur Google Maps / recherche locale, souvent plus rentable que le
       seul référencement du site pour une activité locale
@@ -85,8 +84,8 @@ Utile et peu coûteux en effort :
 Nice-to-have, à faire plus tard (après le lancement) :
 
 - [ ] `sitemap.xml` + `robots.txt` pour aider Google à indexer le site
-- [ ] Données structurées `schema.org` (type `LocalBusiness`) pour un meilleur
-      affichage dans les résultats Google (adresse, téléphone visibles directement)
+- [x] Données structurées `schema.org` (type `LocalBusiness`) : adresse, téléphone,
+      email, gamme de prix
 - [ ] Outil d'analytics léger et respectueux de la vie privée (Plausible ou
       GoatCounter, gratuits en usage léger) pour suivre les visites
 
@@ -114,8 +113,24 @@ Le site se met à jour automatiquement sur GitHub Pages quelques minutes après 
 
 ## Prochaine session — reprendre ici
 
-1. Texte « Élevage » à obtenir auprès de Nollan ; fiches des chevaux à vendre
-   (textes, prix, coordonnées et photos : fait).
-2. Mettre en place le formulaire de contact fonctionnel (Formspree ou EmailJS —
-   à décider avec l'utilisateur).
-3. Passer en revue le reste de la checklist ci-dessus avant un lancement officiel.
+État au 2026-11-12 : textes, prix, téléphone et email en ligne (publiés sur `main`).
+
+Avant de faire connaître le site :
+
+1. **Formulaire de contact** — n'envoie rien pour l'instant. Proposition : Formspree
+   (gratuit, ~50 messages/mois) vers nollan.renault@gmail.com. Il faut : créer un compte
+   sur formspree.io et donner le lien du formulaire.
+2. **Mentions légales + politique de confidentialité** (obligatoires). Il faut : numéro
+   SIRET et forme juridique (entreprise individuelle d'après le dossier).
+3. **Texte « Élevage »** — à voir avec Nollan.
+4. **Fiches chevaux à vendre** — infos réelles + photo pour chaque cheval, ou masquer la
+   section tant qu'il n'y en a pas.
+
+Rapide, faisable sans infos supplémentaires :
+
+5. Favicon.
+6. Page 404 personnalisée.
+7. `sitemap.xml` + `robots.txt`.
+
+Plus tard : fiche Google Business Profile (à créer par Nollan avec son compte Google),
+GoatCounter, nom de domaine, renommage du dépôt.
